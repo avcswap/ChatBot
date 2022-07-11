@@ -20,4 +20,10 @@ async function token(){
         console.error(error);
     }
 }
+
+
+
+messaging.onMessage(function(data) {
+    console.log(data)
+});
 token()
